@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    margin: 0;
+    flex: auto;
+    align-items: stretch;
+    flex-direction: column;
+}
+
+#container {
+    display: flex;
+    flex-flow: row wrap;
+    flex-grow: 1;
+    justify-content: space-around;
+
+}
+
+div {
+  background: grey;
+  width: 200px;
+  height: 150px;
+  margin-top: 10px;
+
+}
