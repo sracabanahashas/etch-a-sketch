@@ -1,23 +1,28 @@
 body {
     display: flex;
-    margin: 0;
-    flex: auto;
-    align-items: stretch;
     flex-direction: column;
+    margin: 0;
 }
 
 #container {
+    background-color: violet;
     display: flex;
-    flex-flow: row wrap;
-    flex-grow: 1;
-    justify-content: space-around;
-
+    margin: auto;
+    flex: 1;
+    min-width: 100%;
 }
 
-div {
-  background: grey;
-  width: 200px;
-  height: 150px;
-  margin-top: 10px;
+.column {
+    display: flex;
+    background-color: aqua;
+    flex: 1 1 30px;
+    flex-direction: column;
+    justify-content: stretch;
+}
 
+.square {
+    flex: 1 1 30px;
+    margin: 1px;
+    justify-content: stretch;
+    align-items: stretch;
 }
