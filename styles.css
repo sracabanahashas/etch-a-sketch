@@ -32,4 +32,9 @@ body {
     margin: 1px;
     justify-content: stretch;
     align-items: stretch;
+    background-color: gray;
+}
+
+.coloredSquare {
+    background-color: darkslategray;
 }

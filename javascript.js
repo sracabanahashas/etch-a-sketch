@@ -8,9 +8,16 @@ for (i = 0; i < 16; i++) {
     column.classList.add("column");
     for (j = 0; j < 16; j++) {
         let square = document.createElement('div')
-        square.style.backgroundColor = 'grey';
         column.appendChild(square);
         square.classList.add("square");
     };
 };
 
+let coloredSquares = document.querySelectorAll('.square')
+console.log(coloredSquares);
+
+coloredSquares.forEach((coloredSquare) => (coloredSquare.addEventListener('mouseover', () => {
+    console.log("Hover");
+    coloredSquare.classList.add("coloredSquare");
+
+})))
