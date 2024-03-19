@@ -4,10 +4,17 @@ body {
     margin: 0;
 }
 
+#containerContainer {
+    display: flex;
+    flex: 1 1 700px;
+    margin: 0;
+    justify-content: stretch;
+}
+
 #container {
     background-color: violet;
     display: flex;
-    margin: auto;
+    margin: 0;
     flex: 1;
     min-width: 100%;
 }
