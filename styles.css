@@ -11,7 +11,7 @@ body {
     justify-content: stretch;
 }
 
-#container {
+.container {
     background-color: violet;
     display: flex;
     margin: 0;
@@ -37,4 +37,8 @@ body {
 
 .coloredSquare {
     background-color: darkslategray;
+}
+
+button {
+    flex-basis: 44px;
 }
