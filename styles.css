@@ -30,7 +30,7 @@ body {
 }
 
 .square {
-    flex: 1 1 30px;
+    flex: 1 1 auto;
     margin: 1px;
     background-color: gray;
 }
